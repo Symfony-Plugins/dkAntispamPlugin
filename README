@@ -1,0 +1,26 @@
+dkAntispamPlugin
+=============
+
+Overview
+--------
+
+dkAntispamPlugin is a simple plugin to allow any symfony application to give a
+"spam note" to any text. No more p3n1s 3nlarg3rs will damage your nice website.
+
+Contents
+--------
+
+* dkAntispamPlugin
+* default configuration
+
+
+License
+-------
+
+For the full copyright and license information, please view the LICENSE
+file that was distributed with this source code.
+
+Changelog
+---------
+
+* 0.1: initial dkAntispamPlugin import

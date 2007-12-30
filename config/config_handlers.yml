@@ -1,0 +1,2 @@
+config/antispam.yml:
+  class:    dkAntispamConfigHandler
