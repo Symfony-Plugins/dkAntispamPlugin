@@ -38,8 +38,6 @@ class dkAntispam
 
     foreach ($this->config['words'] as $word)
     {
-      $word = str_replace(array('a','e','i','o','l','x'), array('[a4@]','[e3]','[il1]','([o0]|\(\))','[il1]','(x|><)'), $word);
-
       $score += 2 * preg_match_all('/'.$word.'/', $text, $result);
 
       if ($score >= 20)
